@@ -23,7 +23,7 @@ services:
     container_name: golang_app
     restart: always
     ports:
-      - "8081:8080"
+      - "8082:8080"
     tty: true
     depends_on:
       - db
